@@ -1,0 +1,27 @@
+body {
+    background: $codGray;
+    color: $codGray;
+    font-family: $sansPro;
+    font-weight: $regular;
+    line-height: 160%;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    transition: ease .3s;
+}
+
+a:hover {
+    transition: ease .3s;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}

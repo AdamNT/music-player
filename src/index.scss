@@ -1,0 +1,30 @@
+// variables / helpers
+@import './styles/helpers/variables';
+
+// normalize / reset css
+@import './styles/base/normalize';
+
+// body
+@import './styles/base/fonts';
+@import './styles/base/body';
+
+
+// components
+@import './styles/components/general';
+@import './styles/components/album';
+@import './styles/components/nextSong';
+@import './styles/components/song';
+@import './styles/components/songNavigation';
+@import './styles/components/songCarousel';
+@import './styles/components/soundWave';
+
+@import './styles/components/headerFooter';
+@import './styles/components/mainView';
+@import './styles/components/playlistView';
+@import './styles/components/navigationView';
+@import './styles/components/button';
+
+@import './styles/components/iconfont';
+
+// vendors
+@import '~swiper/src/swiper';

@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'iconfont';
+    font-weight: normal;
+    src: url('./assets/fonts/iconfont.eot');
+    src: url('./assets/fonts/iconfont.eot?#iefix') format('eot'),
+        url('./assets/fonts/iconfont.woff') format('woff'),
+        url('./assets/fonts/iconfont.ttf') format('truetype');
+    font-style: normal;
+}
+
+[class^='icon-'],
+[class*=' icon-'] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'iconfont';
+    font-weight: normal;
+    line-height: 1;
+    text-transform: none;
+    speak: none;
+    font-style: normal;
+    font-variant: normal;
+
+    /* Better Font Rendering =========== */
+    -webkit-fontSmoothing: antialiased;
+    -moz-osx-fontSmoothing: grayscale;
+}
+
+
+.icon-arrow-left::before {
+    content: '\EA01';
+}
+
+.icon-daft-logo::before {
+    content: '\EA02';
+}
+
+.icon-more::before {
+    content: '\EA03';
+}
+
+.icon-next::before {
+    content: '\EA04';
+}
+
+.icon-playlist::before {
+    content: '\EA05';
+}
+
+.icon-previous::before {
+    content: '\EA06';
+}
+
+.icon-repeat::before {
+    content: '\EA07';
+}
+
+.icon-shuffle::before {
+    content: '\EA08';
+}

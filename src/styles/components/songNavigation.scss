@@ -1,0 +1,32 @@
+.song-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 -25px;
+    padding: 40px 0 35px;
+}
+
+.song-navigation__item {
+    margin: 0 25px;
+    color: $nobelGray;
+    font-size: 26px;
+    cursor: pointer;
+    outline: none;
+    transition: color .3s;
+
+    &:hover {
+        color: $white;
+        transition: color .3s;
+    }
+}
+
+.song-navigation__item--play {
+    width: 227px;
+    height: 232px;
+    margin: -35px -10px;
+    background: url('./assets/images/play--inactive.png') no-repeat center center;
+
+    &.is-active {
+        background: url('./assets/images/play--active.png') no-repeat center center;
+    }
+}

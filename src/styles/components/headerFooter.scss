@@ -1,0 +1,91 @@
+.main {
+    position: relative;
+    z-index: 1;
+    height: 100%;
+}
+
+.bck {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.bck__img {
+    opacity: .1;
+    height: 435px;
+    object-fit: cover;
+    filter: grayscale(100%);
+}
+
+.bck__overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    background: rgba($codGray, .1);
+}
+
+.bck__gradient {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    background-image: linear-gradient(to top, $codGray, transparent);
+}
+
+.header {
+    position: relative;
+    z-index: 2;
+}
+
+.header__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 136px;
+    padding: 40px 0;
+}
+
+.back,
+.menu {
+    display: flex;
+    width: 30px;
+    color: $malachiteGreen;
+    font-size: 30px;
+    cursor: pointer;
+    outline: none;
+}
+
+.back {
+    justify-content: flex-start;
+}
+
+.menu {
+    justify-content: flex-end;
+}
+
+.navigation-footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: $white;
+}
+
+.navigation-footer__wrapper {
+    display: flex;
+    align-items: center;
+    padding: 16px 0;
+}
+
+.playlist-icon {
+    color: $malachiteGreen;
+    font-size: 26px;
+    cursor: pointer;
+}

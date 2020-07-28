@@ -1,0 +1,30 @@
+.album {
+    text-align: center;
+}
+
+.album-name {
+    color: $white;
+    font-size: $fsMd;
+    padding-top: 5px;
+}
+
+.album-cover {
+    &.small {
+        max-height: 125px;
+    }
+
+    &.medium {
+        max-height: 190px;
+    }
+
+    &.big {
+        max-height: 320px;
+    }
+
+    &.with-logo {
+        width: 80px;
+        height: 80px;
+        background: $malachiteGreen;
+    }
+}
+

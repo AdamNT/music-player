@@ -1,0 +1,33 @@
+.root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.mobile-mockup {
+    position: relative;
+    overflow: hidden;
+    width: 580px;
+    height: 1033px;
+    margin: 25px;
+    border: 3px solid $malachiteGreen;
+    background: $codGray;
+}
+
+.container {
+    padding: 0 55px;
+}
+
+.label {
+    color: $pewterGray;
+    text-transform: uppercase;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-upper {
+    text-transform: uppercase;
+}

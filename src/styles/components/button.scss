@@ -1,0 +1,40 @@
+.btn {
+    display: inline-block;
+    padding: 15px 20px;
+    border: 2px solid transparent;
+    background: transparent;
+    font-family: $sansPro;
+    font-size: $fsBtnMd;
+    font-weight: $bold;
+    line-height: normal;
+    text-align: center;
+    user-select: none;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    outline: none;
+    transition: ease .3s;
+
+    &:hover,
+    &:focus,
+    &.active {
+        transition: ease .3s;
+    }
+}
+
+.btn--full-width {
+    width: 100%;
+}
+
+.btn--radius {
+    border-radius: 30px;
+}
+
+.btn--green {
+    background: $malachiteGreen;
+    color: $white;
+
+    &:hover {
+        background: darken($malachiteGreen, 10%);
+    }
+}

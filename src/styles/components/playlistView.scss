@@ -1,0 +1,130 @@
+.playlist-popup {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+    z-index: 2;
+    background: $white;
+    transition: transform .5s, visibility 0s .5s;
+    transform: translateX(-100%);
+
+    &.is-active {
+        visibility: visible;
+        transition: transform .5s;
+        transform: translateX(0);
+    }
+
+    .bck {
+        overflow: hidden;
+        height: 130px;
+        background: $codGray;
+    }
+
+    .song-name {
+        font-size: $fsMd;
+    }
+
+    .song-navigation__item--play {
+        width: 110px;
+        height: 110px;
+        margin: -27px -13px;
+        background-size: contain;
+    }
+
+    .header__wrapper {
+        justify-content: inherit;
+        min-height: inherit;
+        padding: 40px 0 34px;
+    }
+
+    .song-artist {
+        padding-top: 0;
+    }
+
+    .album {
+        flex: 1 1 auto;
+        padding-left: 40px;
+        text-align: inherit;
+    }
+}
+
+.playlist-wrapper {
+    margin: 55px 0 24px;
+}
+
+.playlist-wrapper__gradient {
+    position: fixed;
+    right: 20px;
+    bottom: 162px;
+    left: 55px;
+    z-index: 0;
+    width: 464px;
+    height: 420px;
+    background: linear-gradient(to top, rgba($white, 1) 0%, rgba($white, 0) 100%);
+}
+
+.playlist {
+    counter-reset: songIndex;
+}
+
+.playlist__song {
+    display: flex;
+    align-items: baseline;
+    padding-bottom: 34px;
+    line-height: normal;
+    counter-increment: songIndex;
+}
+
+.playlist .song__name {
+    position: relative;
+    flex: 1 1 auto;
+    padding-left: 40px;
+    font-size: $fsMd;
+    overflow: hidden;
+    margin-right: 15px;
+
+    &::before {
+        position: absolute;
+        content: counter(songIndex) '. ';
+        bottom: 2px;
+        left: 0;
+        color: $pewterGray;
+        font-size: $fsSm;
+    }
+
+    &::after {
+        position: absolute;
+        content: '';
+        bottom: 6px;
+        display: inline-block;
+        width: 100%;
+        height: 4px;
+        margin-left: 5px;
+        background: url('./assets/images/dot.png') repeat center center;
+    }
+}
+
+.playlist__song.is-active .song__name {
+    color: $malachiteGreen;
+}
+
+.playlist .song__time {
+    color: $pewterGray;
+    font-size: $fsMd;
+}
+
+.scroll-icon {
+    color: $malachiteGreen;
+    font-size: $fsIconMd;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+
+    [class^="icon-"] {
+        transform: rotate(-90deg);
+        display: inline-block;
+    }
+}

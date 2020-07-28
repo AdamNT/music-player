@@ -1,0 +1,90 @@
+{
+    "playlist": [{
+            "id": 1,
+            "cover": "./cover-1.png",
+            "name": "Eyes Of A Panther",
+            "artist": "Steel Panther",
+            "album": "Feel The Steel",
+            "time": "0:06"
+        },
+        {
+            "id": 2,
+            "cover": "./cover-2.png",
+            "name": "Self Conscious",
+            "artist": "Kayne West",
+            "album": "Unreleased",
+            "time": "5:12"
+        },
+        {
+            "id": 3,
+            "cover": "./cover-3.png",
+            "name": "Dark Fantasy",
+            "artist": "Kayne West",
+            "album": "My Beautiful Dark Twisted Fantasy",
+            "time": "4:12"
+        }, {
+            "id": 4,
+            "cover": "./cover-1.png",
+            "name": "Livin' In A Movie",
+            "artist": "the xbanders",
+            "album": "x-tended play",
+            "time": "4:40"
+        }, {
+            "id": 5,
+            "cover": "./cover-3.png",
+            "name": "All Of The Lights",
+            "artist": "Kayne West",
+            "album": "My Beautiful Dark Twisted Fantasy",
+            "time": "3:37"
+        }, {
+            "id": 6,
+            "cover": "./cover-1.png",
+            "name": "So appalled",
+            "artist": "Kayne West",
+            "album": "My Beautiful Dark Twisted Fantasy",
+            "time": "3:13"
+        }, {
+            "id": 7,
+            "cover": "./cover-3.png",
+            "name": "Devil In A New Dress",
+            "artist": "Kayne West",
+            "album": "My Beautiful Dark Twisted Fantasy",
+            "time": "3:10"
+        }, {
+            "id": 8,
+            "cover": "./cover-1.png",
+            "name": "Runaway",
+            "artist": "Gromee",
+            "album": "Runaway",
+            "time": "2:55"
+        }, {
+            "id": 9,
+            "cover": "./cover-3.png",
+            "name": "Hell of a Way to Live",
+            "artist": "Snakecharmer",
+            "album": "Second Skin",
+            "time": "3:05"
+        }, {
+            "id": 10,
+            "cover": "./cover-1.png",
+            "name": "Blame Game",
+            "artist": "Charlie Crown, Bastian Fields, Leo The Kind",
+            "album": "Blame Game",
+            "time": "2:58"
+        }, {
+            "id": 11,
+            "cover": "./cover-3.png",
+            "name": "Lost in the World",
+            "artist": "Kayne West",
+            "album": "My Beautiful Dark Twisted Fantasy",
+            "time": "3:12"
+        }, {
+            "id": 12,
+            "cover": "./cover-1.png",
+            "name": "Who Will Survive In America",
+            "artist": "Kayne West",
+            "album": "My Beautiful Dark Twisted Fantasy",
+            "time": "3:22"
+        }
+    ]
+}

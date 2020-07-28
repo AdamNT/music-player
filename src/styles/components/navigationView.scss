@@ -1,0 +1,57 @@
+.navigation-popup {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 88px;
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 2;
+    background: rgba($codGray, .95);
+    transition: opacity .5s, visibility 0s .5s;
+
+    &.is-active {
+        visibility: visible;
+        opacity: 1;
+        transition: opacity .5s;
+    }
+
+    .song-cover {
+        padding-top: 85px;
+    }
+
+    .song-info {
+        position: relative;
+        padding: 20px 0 42px;
+
+        &::after {
+            position: absolute;
+            content: '•••';
+            bottom: 0;
+            left: calc(50% + 11px);
+            color: $pewterGray;
+            font-size: $fsMd;
+            transform: translateX(-50%);
+            letter-spacing: 22px;
+        }
+    }
+
+    .song-options {
+        padding-top: 20px;
+
+        .song-options__nav {
+            display: table;
+            margin: 0 auto;
+            padding: 0;
+            list-style: none;
+        }
+
+        .song-options__item {
+            padding: 16px 0;
+            color: $white;
+            font-size: $fsMd;
+            line-height: normal;
+            text-align: center;
+        }
+    }
+}
